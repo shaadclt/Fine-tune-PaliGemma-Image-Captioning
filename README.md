@@ -1,5 +1,5 @@
 # Fine-tuning PaliGemma for Image Captioning
-This project demonstrates how to use fine-tune PaliGemma model for image captioning. The PaliGemma model, developed by Google Research, is designed to handle images and generate corresponding captions.
+This project demonstrates how to fine-tune PaliGemma model for image captioning. The PaliGemma model, developed by Google Research, is designed to handle images and generate corresponding captions.
 
 ## Overview
 The notebook includes the following key steps:
