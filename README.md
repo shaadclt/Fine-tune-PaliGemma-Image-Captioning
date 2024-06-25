@@ -4,47 +4,47 @@ This project demonstrates how to fine-tune PaliGemma model for image captioning.
 ## Overview
 The notebook includes the following key steps:
 
-### 1.Setup Environment:
+### 1. Setup Environment:
 
 - Environment variables for Kaggle are set up to download model checkpoints.
 - The Big Vision repository is cloned, and necessary dependencies are installed.
 - JAX is configured, and GPU/TPU devices are made invisible to TensorFlow to avoid conflicts.
 
-### 2.Download Required Files:
+### 2. Download Required Files:
 
 - Model checkpoint and tokenizer are downloaded.
 - The dataset for training and validation is downloaded.
 
-### 3.Model Definition:
+### 3. Model Definition:
 
 - The PaliGemma model is defined using configuration settings.
 - The tokenizer for text processing is loaded.
 
-### 4.Parameter Loading:
+### 4. Parameter Loading:
 
 - Model parameters are loaded and sharded across devices if multiple GPUs are available.
 - The parameters are converted to float32 where necessary.
 
-### 5.Preprocessing Functions:
+### 5. Preprocessing Functions:
 
 - Functions for preprocessing images and tokens are defined to prepare data for the model.
 
-### 6.Training and Validation Data:
+### 6. Training and Validation Data:
 
 - Iterators for training and validation data are created.
 - Images and captions from the dataset are preprocessed for training and evaluation.
 
-### 7.Training Loop:
+### 7. Training Loop:
 
 A short training loop is implemented using stochastic gradient descent (SGD) and a cosine learning rate schedule.
 Model parameters are updated, and training loss is reported at each step.
 
-### 8.Evaluation:
+### 8. Evaluation:
 
 - The model's performance is evaluated on a validation dataset.
 - Predicted captions for validation images are generated and displayed.
 
-### 9.Streamlit Interface:
+### 9. Streamlit Interface:
 
 - A Streamlit interface is created to upload images and generate captions using the trained PALIGEMMA model.
 
