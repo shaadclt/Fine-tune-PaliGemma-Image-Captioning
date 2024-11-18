@@ -64,3 +64,6 @@ Model parameters are updated, and training loss is reported at each step.
   
 ## Conclusion
 This project provides a comprehensive guide to fine-tune the PaliGemma model for image captioning. By following the steps outlined in the notebook, you can train the model on a custom dataset and use it to generate captions for new images.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
